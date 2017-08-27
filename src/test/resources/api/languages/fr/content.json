@@ -1,0 +1,9 @@
+{
+  "code":"fr",
+  "name":"French",
+  "nplurals":2,
+  "pluralequation":"n > 1",
+  "direction":"ltr",
+  "web_url":"http://localhost:50080/languages/fr/",
+  "url":"http://localhost:50080/api/languages/fr/?format=json"
+}

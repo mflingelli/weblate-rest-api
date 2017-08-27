@@ -1,0 +1,35 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id_hash": -4080380003361060194,
+      "component": "http://localhost:50080/api/components/project/component/",
+      "timestamp": "2016-05-09T17:45:24Z",
+      "priority": 100,
+      "check_flags": "",
+      "url": "http://localhost:50080/api/sources/60/",
+      "units": [
+        "http://localhost:50080/api/units/170/",
+        "http://localhost:50080/api/units/204/",
+        "http://localhost:50080/api/units/238/"
+      ],
+      "screenshots": []
+    },
+    {
+      "id_hash": 6213576272108329042,
+      "component": "http://localhost:50080/api/components/project/component/",
+      "timestamp": "2016-05-09T17:45:24Z",
+      "priority": 100,
+      "check_flags": "",
+      "url": "http://localhost:50080/api/sources/61/",
+      "units": [
+        "http://localhost:50080/api/units/171/",
+        "http://localhost:50080/api/units/205/",
+        "http://localhost:50080/api/units/239/"
+      ],
+      "screenshots": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "component": {
+        "branch": "master",
+        "file_format": "aresource",
+        "filemask": "android/values-*/strings.xml",
+        "git_export": "",
+        "license": "",
+        "license_url": "",
+        "lock_url": "http://127.0.0.1:8000/api/components/hello/android/lock/",
+        "name": "Android",
+        "new_base": "",
+        "project": {
+          "components_list_url": "http://127.0.0.1:8000/api/projects/hello/components/",
+          "name": "Hello",
+          "repository_url": "http://127.0.0.1:8000/api/projects/hello/repository/",
+          "slug": "hello",
+          "source_language": {
+            "code": "en",
+            "direction": "ltr",
+            "name": "English",
+            "nplurals": 2,
+            "pluralequation": "n != 1",
+            "url": "http://127.0.0.1:8000/api/languages/en/",
+            "web_url": "http://127.0.0.1:8000/languages/en/"
+          },
+          "url": "http://127.0.0.1:8000/api/projects/hello/",
+          "web": "http://weblate.org/",
+          "web_url": "http://127.0.0.1:8000/projects/hello/"
+        },
+        "repo": "https://github.com/WeblateOrg/test.git",
+        "repository_url": "http://127.0.0.1:8000/api/components/hello/android/repository/",
+        "slug": "android",
+        "template": "android/values/strings.xml",
+        "translations_url": "http://127.0.0.1:8000/api/components/hello/android/translations/",
+        "url": "http://127.0.0.1:8000/api/components/hello/android/",
+        "vcs": "git",
+        "web_url": "http://127.0.0.1:8000/projects/hello/android/"
+      },
+      "failing_checks": 0,
+      "failing_checks_percent": 0.0,
+      "failing_checks_words": 0,
+      "file_url": "http://127.0.0.1:8000/api/translations/hello/android/ach/file/",
+      "filename": "android/values-b+ach/strings.xml",
+      "fuzzy": 0,
+      "fuzzy_percent": 0.0,
+      "fuzzy_words": 0,
+      "have_comment": 1,
+      "have_suggestion": 0,
+      "is_template": false,
+      "language": {
+        "code": "ach",
+        "direction": "ltr",
+        "name": "Acholi",
+        "nplurals": 2,
+        "pluralequation": "(n > 1)",
+        "url": "http://127.0.0.1:8000/api/languages/ach/",
+        "web_url": "http://127.0.0.1:8000/languages/ach/"
+      },
+      "language_code": "b+ach",
+      "last_author": null,
+      "last_change": null,
+      "repository_url": "http://127.0.0.1:8000/api/translations/hello/android/ach/repository/",
+      "revision": "a6b3daec9354f9ae75cdf8d94a67446c6227dd96,de7ed54c55f3dffceae30a1b4c20426e26214723",
+      "share_url": "http://127.0.0.1:8000/engage/hello/ach/",
+      "total": 4,
+      "total_words": 15,
+      "translate_url": "http://127.0.0.1:8000/translate/hello/android/ach/",
+      "translated": 0,
+      "translated_percent": 0.0,
+      "translated_words": 0,
+      "url": "http://127.0.0.1:8000/api/translations/hello/android/ach/",
+      "web_url": "http://127.0.0.1:8000/projects/hello/android/ach/"
+    }
+  ]
+}

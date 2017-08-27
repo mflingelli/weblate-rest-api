@@ -1,0 +1,31 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "translation": "http://localhost:50080/api/translations/project/component/de/",
+      "source": "Management",
+      "previous_source": "",
+      "target": "Verwaltung",
+      "id_hash": -973586389821323441,
+      "content_hash": 3612960264436531876,
+      "location": "",
+      "context": "folder.management",
+      "comment": "",
+      "flags": "",
+      "fuzzy": false,
+      "translated": true,
+      "position": 1,
+      "has_suggestion": false,
+      "has_comment": false,
+      "has_failing_check": false,
+      "num_words": 1,
+      "priority": 100,
+      "id": 4350,
+      "web_url": "http://localhost:50080/translate/project/component/de/?checksum=727d2056348b874f",
+      "url": "http://localhost:50080/api/units/4350/",
+      "source_info": "http://localhost:50080/api/sources/1402/"
+    }
+    ]
+}    

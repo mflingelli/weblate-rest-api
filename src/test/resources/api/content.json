@@ -1,0 +1,10 @@
+{
+  "projects": "http://localhost:50080/api/projects/",
+  "components": "http://localhost:50080/api/components/",
+  "translations": "http://localhost:50080/api/translations/",
+  "languages": "http://localhost:50080/api/languages/",
+  "changes": "http://localhost:50080/api/changes/",
+  "units": "http://localhost:50080/api/units/",
+  "sources": "http://localhost:50080/api/sources/",
+  "screenshots": "http://localhost:50080/api/screenshots/"
+}
