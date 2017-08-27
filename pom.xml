@@ -16,15 +16,15 @@
     </developers>
 
     <scm>
-        <url>scm:git:git@github.com:mflingelli/openvas-helper.git</url>
-        <connection>scm:git:git@github.com:mflingelli/openvas-helper.git</connection>
-        <developerConnection>scm:git:git@github.com:mflingelli/openvas-helper.git</developerConnection>
+        <url>scm:git:git@github.com:mflingelli/weblate-rest-api.git</url>
+        <connection>scm:git:git@github.com:mflingelli/weblate-rest-api.git</connection>
+        <developerConnection>scm:git:git@github.com:mflingelli/weblate-rest-api.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/mflingelli/openvas-helper/issues</url>
+        <url>https://github.com/mflingelli/weblate-rest-api/issues</url>
     </issueManagement>
 
     <url>https://github.com/mflingelli/weblate-rest-api</url>
