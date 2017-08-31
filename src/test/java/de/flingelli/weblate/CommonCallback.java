@@ -44,7 +44,7 @@ public class CommonCallback implements ExpectationCallback  {
         return response()
                 .withStatusCode(200)
                 .withHeaders(
-                        header("Content-Length", "a_callback_response".getBytes().length),
+                        header("Content-Length", content.length),
                         header("Content-Type", "application/json"),
                         header("Authorization", "password"),
                         header("Allow", "GET, HEAD, OPTIONS"),
