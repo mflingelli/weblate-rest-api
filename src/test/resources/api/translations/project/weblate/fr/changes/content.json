@@ -1,0 +1,35 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "unit": null,
+      "component": "http://localhost:50080/api/components/project/component/",
+      "translation": "http://localhost:50080/api/translations/project/component/fr/",
+      "dictionary": null,
+      "user": null,
+      "author": null,
+      "timestamp": "2017-07-14T20:38:29Z",
+      "action": 17,
+      "target": "",
+      "id": 18280,
+      "action_name": "Änderungen eingespielt",
+      "url": "http://localhost:50080/api/changes/18280/"
+    },
+    {
+      "unit": "http://localhost:50080/api/units/4429/",
+      "component": "http://localhost:50080/api/components/project/component/",
+      "translation": "http://localhost:50080/api/translations/project/component/fr/",
+      "dictionary": null,
+      "user": 4,
+      "author": 4,
+      "timestamp": "2017-07-14T20:38:01Z",
+      "action": 2,
+      "target": "Nom :",
+      "id": 18273,
+      "action_name": "Geänderte Übersetzung",
+      "url": "http://localhost:50080/api/changes/18273/"
+    }
+  ]
+}

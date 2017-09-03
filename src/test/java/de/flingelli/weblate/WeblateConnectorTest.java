@@ -298,4 +298,11 @@ public class WeblateConnectorTest {
         Assert.assertFalse(components.isEmpty());
     }
 
+    @Test
+    public void getComponentsLanguageChangedAfter() throws ParseException {
+        WeblateConnector connector = getConnector();
+        Set<String> components = connector.getComponentsChangedAfter("project", "fr", new SimpleDateFormat("dd-MM-yyyy").parse("01-06-2017"));
+        Assert.assertFalse(components.isEmpty());
+    }
+
 }
