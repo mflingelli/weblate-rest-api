@@ -1,6 +1,5 @@
 package de.flingelli.weblate;
 
-import org.mockserver.integration.ClientAndProxy;
 import org.mockserver.integration.ClientAndServer;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -17,13 +16,12 @@ import static org.mockserver.model.HttpClassCallback.callback;
 import static org.mockserver.model.HttpRequest.request;
 
 public class WeblateConnectorTest {
+    private static final String PREFIX_URL = "http://localhost:50080/";
     private ClientAndServer server;
-    private ClientAndProxy proxy;
 
-    @BeforeSuite
+    @BeforeClass
     public void startServer() throws IOException {
         server = ClientAndServer.startClientAndServer(50080);
-        proxy = ClientAndProxy.startClientAndProxy(50090);
         registerResponses();
     }
 
@@ -34,15 +32,14 @@ public class WeblateConnectorTest {
         });
     }
 
-    @AfterSuite
+    @AfterClass
     public void stopServer() {
         server.stop();
-        proxy.stop();
     }
 
     @Test
     public void getApiProjects() {
-        Assert.assertEquals(getConnector().getApi().getProjects(), "http://localhost:50080/api/projects/");
+        Assert.assertEquals(getConnector().getApi().getProjects(), PREFIX_URL + "api/projects/");
     }
 
     private WeblateConnector getConnector() {
@@ -51,37 +48,37 @@ public class WeblateConnectorTest {
 
     @Test
     public void getApiChanges() {
-        Assert.assertEquals(getConnector().getApi().getChanges(), "http://localhost:50080/api/changes/");
+        Assert.assertEquals(getConnector().getApi().getChanges(), PREFIX_URL + "api/changes/");
     }
 
     @Test
     public void getApiComponents() {
-        Assert.assertEquals(getConnector().getApi().getComponents(), "http://localhost:50080/api/components/");
+        Assert.assertEquals(getConnector().getApi().getComponents(), PREFIX_URL + "api/components/");
     }
 
     @Test
     public void getApiLanguages() {
-        Assert.assertEquals(getConnector().getApi().getLanguages(), "http://localhost:50080/api/languages/");
+        Assert.assertEquals(getConnector().getApi().getLanguages(), PREFIX_URL + "api/languages/");
     }
 
     @Test
     public void getApiScreenshots() {
-        Assert.assertEquals(getConnector().getApi().getScreenshots(), "http://localhost:50080/api/screenshots/");
+        Assert.assertEquals(getConnector().getApi().getScreenshots(), PREFIX_URL + "api/screenshots/");
     }
 
     @Test
     public void getApiSources() {
-        Assert.assertEquals(getConnector().getApi().getSources(), "http://localhost:50080/api/sources/");
+        Assert.assertEquals(getConnector().getApi().getSources(), PREFIX_URL + "api/sources/");
     }
 
     @Test
     public void getApiTranslations() {
-        Assert.assertEquals(getConnector().getApi().getTranslations(), "http://localhost:50080/api/translations/");
+        Assert.assertEquals(getConnector().getApi().getTranslations(), PREFIX_URL + "api/translations/");
     }
 
     @Test
     public void getApiUnits() {
-        Assert.assertEquals(getConnector().getApi().getUnits(), "http://localhost:50080/api/units/");
+        Assert.assertEquals(getConnector().getApi().getUnits(), PREFIX_URL + "api/units/");
     }
 
     @Test
